@@ -70,15 +70,11 @@ body {
     background-color: white;
     border-radius: 35px 35px 0px 0px;
     margin: auto;
-    padding: 1rem;
+    padding: 2rem 1rem;
     text-align: justify;
     text-transform: capitalize;
     width: 100%;
     max-width: 600px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
 }
 
 .pokemon-info h2 {
@@ -92,6 +88,7 @@ body {
     justify-content: space-between;
     margin: auto;
     width: 100%;
+    margin-top: 1rem;
 }
 
 .info-labels, .info-values {
@@ -102,6 +99,7 @@ body {
 .info-labels p, .info-values p {
     margin: 0.8rem 0;
     font-size: 0.9rem;
+    
 }
 
 .info-labels p {
@@ -111,8 +109,8 @@ body {
 .evolucoes {
     border-top: 1px solid #5FE2CA;
     border-bottom: 1px solid #5FE2CA;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
 }
 
 .evolution-chain {
